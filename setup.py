@@ -2,18 +2,16 @@
 # -*- coding:utf-8 -*-
 
 """
-    Author:cleverdeng
-    E-mail:clverdeng@gmail.com
 """
 from distutils.core import setup
-from pinyin import __version__ as version
+from . import __version__ as version
 
 setup(
             name='pinyin',
             version=version,
-            description='hanzi -> pinyin,With Python',
-            author='cleverdeng',
-            author_email='cleverdeng@gmail.com',
+            description='A chinese pinyin converter, 中文拼音转换器',
+            author='WeiVic',
+            author_email='weivic@yeah.net',
             url='http://github.com/cleverdeng/pinyin.py',
             py_modules=['pinyin'],
             license='MIT License',

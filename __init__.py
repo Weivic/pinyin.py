@@ -1,4 +1,9 @@
 from .pinyin import PinYin
+"""
+A chinese pinyin converter based on @cleverdeng's pinyin.py
+http://github.com/cleverdeng/pinyin.py
+"""
+__version__ = 0.1
 
 _instance = PinYin()
 vowels = _instance.vowels
